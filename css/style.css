@@ -399,8 +399,59 @@
 .team-item:hover .team-social {
     top: 0;
 }
+section img {
+    transition: 0.3s;
+}
 
+section img:hover {
+    transform: scale(1.05);
+}
+/* Design Styles Section */
+.design-section {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
 
+/* Title */
+.design-section h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Card Box */
+.design-box {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s;
+    height: 100%;
+}
+
+/* Hover Effect */
+.design-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Image */
+.design-box img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* Heading */
+.design-box h5 {
+    color: #2C2C2C;
+    margin-bottom: 8px;
+}
+
+/* Description */
+.design-box p {
+    color: #777;
+    font-size: 14px;
+}
 /*** Testimonial ***/
 
 .testimonial-carousel .owl-item .testimonial-item img {
